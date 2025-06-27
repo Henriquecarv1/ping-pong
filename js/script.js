@@ -59,14 +59,14 @@ function reiniciarBola() {
 
 function desenharJogo() {
   // Fundo
-  raquete(0, 0, tela.width, tela.height, "brown");
+  raquete(0, 0, tela.width, tela.height, "purple");
 
   // Raquetes
   raquete(10, jogador1, larguraRaquete, alturaRaquete, "white");
   raquete(tela.width - 20, cpu, larguraRaquete, alturaRaquete, "black");
 
   // Bola
-  bola(bolaX, bolaY, raioBola, "green");
+  bola(bolaX, bolaY, raioBola, "brown");
 }
 
 function verificarVencedor() {
